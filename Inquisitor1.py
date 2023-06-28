@@ -710,6 +710,204 @@ def cscan(file, Score=None):
     x = (content.find('2 282?2K2Z2u2|2'))
     if x > -1: logging.info('┝BadRabbit')
     if x > -1: Score = Score + 19
+    x = (content.find('*ssfn*'))
+    if x > -1: logging.info('┝NexusLogger')
+    if x > -1: Score = Score + 10
+    x = (content.find('i>k__BackingField'))
+    if x > -1: logging.info('┝Habbo')
+    if x > -1: Score = Score + 10
+    x = (content.find('BCrbMasterKeyyptImbMasterKeyportKbMasterKeyey'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('SELSystem.LinqECT * FRSystem.LinqOM WinSystem.Linq32_VideoCoSystem.Linqntroller'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('SSystem.ELECT * FRSystem.OM WiSystem.n32_ProcSystem.ess WherSystem.e SessiSystem.onId=\''))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('\%USERPserviceInterface.ExtensionROFILE\%\\ApserviceInterface.ExtensionpData\\LocaserviceInterface.Extensionl'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('\%USERPserviceInterface.ExtensionROFILE%\\ApserviceInterface.ExtensionpData\\LocaserviceInterface.Extensionl'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('SELSystem.Windows.FormsECT * FRSystem.Windows.FormsOM WinSystem.Windows.Forms32_ProcSystem.Windows.Formsessor'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('SELESystem.ManagementCT * FRSystem.ManagementOM WiSystem.Managementn32_DisSystem.ManagementkDrivSystem.Managemente'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('SELSystem.Text.RegularExpressionsECT * FRSystem.Text.RegularExpressionsOM Win32_PSystem.Text.RegularExpressionsrocess WSystem.Text.RegularExpressionshere SessSystem.Text.RegularExpressionsionId=\''))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('KDBM(6'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('MSObject32'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('*wallet*'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('chromeKey'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('https://api.ip.sb/ip'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('\\Discord\\Local Storage\\leveldb'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('<GetWindowsVersion>g__HKLM_GetString|11_0'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('nSystem.CollectionspvoSystem.Collections*'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('cFileStreamredFileStreamit_cFileStreamardFileStreams'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('\%USERPFile.WriteROFILE%\\AppFile.WriteData\\RoamiFile.Writeng'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('BCrstring.EmptyyptOpestring.EmptynAlgorithmProvistring.Emptyder'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('SELEMemoryCT * FMemoryROM WiMemoryn32_OperMemoryatingSMemoryystem'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('\\TeEnvironmentlegraEnvironmentm DEnvironmentesktoEnvironmentp\\tdEnvironmentata'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('<DomainExists>b__0_0'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('GetDefaultIPv4Address'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('<ListOfPrograms>b__8_0'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('ProldCharotonVoldCharPN'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('serviceInterface.Extension'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('<AvailableLanguages>b__9_0'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('<GetDefaultIPv4Address>b__1_1'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('<GetDefaultIPv4Address>b__1_0'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('roSystem.Linqot\\CISystem.LinqMV2'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('Concat0 MConcatb oConcatr Concat0'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('BCrUnmanagedTypeyptDecrUnmanagedTypeypt'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('E3E8284EDCB98A1085E693F9525A3AC3D705B82E'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('7FD227EEE2F38A50CFD286D228B794575C0025FB'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('FB10FF1AD09FE8F5CA3A85B06BC96596AF83B350'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('A898408AA9A30B686240D921FE0E3E3A01EE91A5'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('93D9D319FF04F5E54F3A6431407A7B90388FDC54'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('1938FDF81D9EFE09E9786A7A7DDFFBD755961098'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('410D551BF9DC1F0CF262E4DB1077795D56EEC026'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('8C550EA96A693C687FFAB21F3B1A5F835E23E3B3'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('28F794B091ED92F57BFC80EA32B18AF3A8183ADB'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('2A19BFD7333718195216588A698752C517111B02'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('99086C63443EF4224B60D2ED08447C082E7A0484'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('718D1294A5C2D3F3D70E09F2F473155C4F567201'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('1A79939AEFF161E557D02CB37CD9A811ABCAF458'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('6353B688B99A3543932AA127DAA0E48FBC646BBD'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('scannerArg'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('GatherValue'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('browserPaths'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('String.Remove'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('ChromeGetName'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('FileStream.IO'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('String.Replace'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('string.Replace'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('FileScannerRule'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('IRemoteEndpoint'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('ReadContextValue'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('ReadContextTable'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('<DomainExists>b__2'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('ReadMasterOfContext'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('<DomainExists>b__0_1'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('NordVpn.exe*MyGToMyGkens.tMyGxt'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('NoGetDirectoriesrd'))
+    if x > -1: logging.info('┝RedLine stealer')
+    if x > -1: Score = Score + 4
+    x = (content.find('nauu652pc41.dll'))
+    if x > -1: logging.info('┝BumbleBee')
+    if x > -1: Score = Score + 4
     if Score > 69:
         logging.info(f'┕Score: {Score}')
         sys.exit()
