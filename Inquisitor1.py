@@ -5,7 +5,7 @@
 import logging, sys
 import requests, os
 import hashlib
-
+"""
 #get the Inquisitor's latest hashes
 curhash = requests.get('https://raw.githubusercontent.com/MoraByte2027/Inquisitor/main/Version').content.decode().split("\n")
 
@@ -31,7 +31,7 @@ elif open(sys.argv[0], 'r', encoding="ISO-8859-1").read().split("\n")[0] == '#Sc
     os.system(f'{sys.argv[0]}')
 
     sys.exit()
-
+"""
 logging.basicConfig(format='%(asctime)s - %(message)s', level=logging.INFO)
 
 def cscan(file, Score=None):
