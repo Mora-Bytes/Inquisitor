@@ -41,7 +41,7 @@ def cscan(file, Score=None):
     count = 0
 
     content = open(file, 'r', encoding="ISO-8859-1").read()
-    logging.info('┍file')
+    logging.info(f'┍{file}')
 
     count = count + 1
     x = (content.find('Rar! '))
