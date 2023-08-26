@@ -962,7 +962,7 @@ def _cscan(content):
 class scan(object):
     """Scan a file's Bytes for Malware!"""
     def __init__(self, Content):
-        super(file, self).__init__()
+        super(scan, self).__init__()
         data           = _cscan(Content)
         self.Score     = data["Score"]
         self.Detection = ','.join(data[Score].split('🕴️'))
