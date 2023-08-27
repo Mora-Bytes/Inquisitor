@@ -965,5 +965,5 @@ class scan(object):
         super(scan, self).__init__()
         data           = _cscan(Content)
         self.Score     = data["Score"]
-        self.Detection = ','.join(data[Score].split('🕴️'))
+        self.Detection = ','.join(data[self.Score].split('🕴️'))
         self.Content   = Content
