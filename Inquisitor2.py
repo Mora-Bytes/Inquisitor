@@ -848,9 +848,6 @@ def _cscan(content):
     if b'nauu652pc41.dll' in content:
         detection += '🕴️' + ('BumbleBee')
         Score = Score + 4
-    if b'sc delete K9-Defender' in content:
-        detection += '🕴️' + ('AntiK9D')
-        Score = Score + 46
     if b'VmKnyogV~w}aytb~ggZycnk|s' in content:
         detection += '🕴️' + ('Satan')
         Score = Score + 9
