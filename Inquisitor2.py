@@ -851,9 +851,6 @@ def _cscan(content):
     if b'sc delete K9-Defender' in content:
         detection += '🕴️' + ('AntiK9D')
         Score = Score + 46
-    if __file__))
-        detection += '🕴️' + ('Other')
-        Score = Score + 8
     if b'VmKnyogV~w}aytb~ggZycnk|s' in content:
         detection += '🕴️' + ('Satan')
         Score = Score + 9
